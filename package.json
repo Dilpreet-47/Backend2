@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Dilpreet-47/Backend2#readme",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
