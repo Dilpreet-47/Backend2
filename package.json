@@ -1,0 +1,20 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dilpreet-47/Backend2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dilpreet-47/Backend2/issues"
+  },
+  "homepage": "https://github.com/Dilpreet-47/Backend2#readme"
+}
