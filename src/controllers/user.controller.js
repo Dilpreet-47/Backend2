@@ -31,7 +31,7 @@ const registerUser = asyncHandler(async (req, res) => {
     throw new apiError(400, "password is required");
   }
 
-  const existedUser = User.findOne({
+ const existedUser = await User.findOne({
     $or: [{ username }, { email }],
   });
 
