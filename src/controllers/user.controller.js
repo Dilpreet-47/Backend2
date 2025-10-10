@@ -4,7 +4,7 @@ import { User } from "../models/user.model.js";
 import { uploadOnCloudinary } from "../utils/claudinary.js";
 import { apiResponse } from "../utils/apiResponse.js";
 
-const registerUser = asyncHandler(async (req, res) => {
+const registerUser = asyncHandler(async (req, res) => { 
   // get details from frontend from user
   // validate details
   // check if user already exists check with username and email
@@ -50,7 +50,7 @@ const registerUser = asyncHandler(async (req, res) => {
   const coverImage = await uploadOnCloudinary(coverImageLocalPath);
 
   if (!avatar) {
-    throw new apiError(400, "Avatar file is required");
+    throw new apiError(400, "Avatar file is required cloudinary");
   }
 
   const user = await User.create({
